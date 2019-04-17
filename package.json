@@ -1,0 +1,25 @@
+{
+  "name": "jsnotepad-demo",
+  "version": "1.0.0",
+  "description": "Windows 记事本网页版",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0 && grunt lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8wangjiaqi/jsnotepad-demo.git"
+  },
+  "author": "8wangjiaqi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8wangjiaqi/jsnotepad-demo/issues"
+  },
+  "homepage": "https://github.com/8wangjiaqi/jsnotepad-demo#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  }
+}

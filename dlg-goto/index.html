@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>dlg-goto</title>
+  <link rel="stylesheet" href="dlg-goto.css">
+  <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
+</head>
+<body>
+
+<!--<input type="button" value="弹出对话框" class="popup">-->
+
+<div class="test">
+    <input type="button" value="弹出对话框">
+</div>
+
+<!--<input type="button" value="弹出对话框" class="popup">-->
+<!--
+<div class="notepad-goto-dlg">
+  <div class="dialogbox">
+    <div class="titlebar">
+      <p class="title">转到指定行</p>
+      <span class="btn-close">X</span>
+    </div>
+    <div class="main">
+      <label for="">行号(L):</label><br>
+      <input type="text" class="line-num"><br>
+      <input class="btn-goto" type="button" value="转到">
+      <input class="btn-cancel"  type="button" value="取消">
+    </div>
+  </div>
+</div>-->
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="dlg-goto.js"></script>
+<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+$(function(){
+    var $btnPopup=$('input[type="button"]');
+    $btnPopup.click(function(){
+    //$btnTest.click(function() {
+      console.log('aaa');
+      $dlgGoto.init({
+          curLine:1,
+          totalLines:5,
+          gotoHandler:function(e){console.log('goto %s',e);}
+      });
+    });
+})
+</script>
+</body>
+</html>

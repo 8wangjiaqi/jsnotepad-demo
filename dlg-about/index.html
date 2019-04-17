@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>dlg-about</title>
+  <link rel="stylesheet" href="dlg-about.css">
+  <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
+</head>
+<body>
+
+<!--<input type="button" value="弹出对话框" class="popup">-->
+
+<div class="test">
+    <input type="button" value="弹出对话框">
+</div>
+<!--
+<div class="notepad-dlg-about">
+  <div class="dialogbox">
+    <div class="titlebar">
+      <p class="title">关于“记事本”</p>
+      <span class="close-btn">✖</span>
+    </div>
+    <div class="main">
+      <h1 class="slogan">JSNotepad</h1>
+      <hr style="width:570px;">
+      <img class="app-logo" src="about.png" alt="JSNotepad">
+      <div class="info">
+        <p>作者：王佳琦</p>
+        <p>QQ：1397978384</p>
+        <p>仓库地址：<a href="https://github.com/wangding/jsnotepad/" target="_blank">https://github.com/8wangjiaqi/jsnotepad/</a></p>
+      </div>
+      <input class="btn-ok" type="button" value="确定">
+    </div>
+  </div>
+</div>
+-->
+
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="dlg-about.js"></script>
+<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+$(function(){
+    var $btnPopup=$('input[type="button"]');
+    $btnPopup.click(function(){
+      console.log('aaa');
+      $dlgAbout.init();
+    });
+})
+</script>
+</body>
+</html>

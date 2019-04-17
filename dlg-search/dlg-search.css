@@ -1,0 +1,125 @@
+body,html {
+  height:100%;
+  margin:0;
+  padding:0;
+  width:100%
+}
+
+.notepad-dlg-search {
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:10;
+}
+
+.notepad-dlg-search .dialogbox {
+  border:1px solid #0f7fd6;
+  height:164px;
+  margin:50px auto;
+  width:414px;
+  position:relative;
+  user-select: none;
+}
+
+.notepad-dlg-search .dialogbox  .titlebar{
+  height:30px;
+  margin:0;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  background-color:white;
+}
+
+.notepad-dlg-search .dialogbox .titlebar .title{
+  position:absolute;
+  left:0;
+  top:0;
+  line-height:30px;
+  margin:0 10px;
+}
+
+.notepad-dlg-search .dialogbox .titlebar .close-btn{
+  position:absolute;
+  right:0;
+  top:0;
+  width:30px;
+  height:30px;
+  text-align:center;
+  line-height:30px;
+}
+
+.notepad-dlg-search .dialogbox .titlebar .close-btn:hover{
+  background-color:red;
+  color:white;
+}
+
+.notepad-dlg-search .main {
+  position:absolute;
+  top:30px;
+  left:0;
+  width:100%;
+  height: 134px;
+  background-color:#f1f1f1;
+}
+.notepad-dlg-search .main .txt{
+  font-size:10px;
+}
+.notepad-dlg-search .main .txt-content {
+  box-sizing: border-box;
+  height: 23px;
+  margin-top: 12px;
+  margin-left:4px;
+  width: 229px;
+
+}
+
+.notepad-dlg-search .main .btn-search {
+  position: absolute;
+  right: 8px;
+  top: 11px;
+  height:26px;
+  width:86px;
+  font-size:9px;
+}
+
+.notepad-dlg-search .main .btn-cancel {
+  bottom: 56px;
+  position: absolute;
+  right: 8px;
+  width:86px;
+}
+
+.notepad-dlg-search .main .search-direction {
+  border-color: #f0f0f0;
+  box-sizing: border-box;
+  height: 52px;
+  left: 163px;
+  padding: 10px 5px;
+  position: absolute;
+  top: 64px;
+  width: 142px;
+  font-size:9px;
+
+}
+
+.notepad-dlg-search .main input[value="down"] {
+  margin-left: 5px;
+
+}
+
+.notepad-dlg-search .main input[value="capital-sense"] {
+  margin-top: 60px;
+  background-color:white;
+}
+
+.notepad-dlg-search .main  .p{
+
+  position:absolute;
+  margin-left:18px;
+  font-size:10px;
+  top:80px;
+}
+

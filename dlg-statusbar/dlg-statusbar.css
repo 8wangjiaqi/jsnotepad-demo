@@ -1,0 +1,44 @@
+body,html {
+  height:100%;
+  margin:0;
+  padding:0;
+  width:100%
+}
+.notepad-dlg-statusbar{
+  border:1px solid #0f7fd6;
+  height:440px;
+  margin:50px auto;
+  width:600px;
+  position:relative;
+}
+.notepad-statusbar {
+  background: #f0f0f0;
+  border-top: 1px solid #d7d7d7;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 22px;
+  left: 0;
+  position: absolute;
+   right: 0;
+}
+
+.notepad-statusbar .right-panel {
+  border-left: 1px solid #d7d7d7;
+  bottom: 1px;
+  height: 19px;
+  position: absolute;
+  right: 0;
+  width: 126px;
+
+}
+
+.notepad-statusbar .right-panel p {
+  cursor: default;
+  line-height: 19px;
+  margin: 0 auto;
+  text-align: center;
+  user-select: none;
+
+}
+
+

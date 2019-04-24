@@ -4,13 +4,14 @@ body,html {
   padding:0;
   width:100%
 }
-.notepad-dlg-statusbar{
+/*.notepad-dlg-statusbar{
   border:1px solid #0f7fd6;
   height:440px;
   margin:50px auto;
   width:600px;
   position:relative;
-}
+}*/
+
 .notepad-statusbar {
   background: #f0f0f0;
   border-top: 1px solid #d7d7d7;
@@ -18,7 +19,7 @@ body,html {
   box-sizing: border-box;
   height: 22px;
   left: 0;
-  position: absolute;
+  position: fixed;
    right: 0;
 }
 
@@ -26,14 +27,16 @@ body,html {
   border-left: 1px solid #d7d7d7;
   bottom: 1px;
   height: 19px;
+  min-width: 170px;
+  overflow: hidden;
   position: absolute;
   right: 0;
-  width: 126px;
-
+  width: 25%;
 }
 
-.notepad-statusbar .right-panel p {
+.notepad-statusbar .right-panel .row-col {
   cursor: default;
+  font-size:1em;
   line-height: 19px;
   margin: 0 auto;
   text-align: center;
